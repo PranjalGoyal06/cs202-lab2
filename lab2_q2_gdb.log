@@ -1,0 +1,18 @@
+Hardware watchpoint 2: -location students[1].id
+Breakpoint 3 at 0x5555555552e6: file corruption.c, line 40.
+Continuing.
+
+Hardware watchpoint 2: -location students[1].id
+
+Old value = 0
+New value = 1002
+init () at corruption.c:17
+17	    students[1].scores[0] = 90;
+Continuing.
+Process record does not support instruction 0xc5 at address 0x7ffff7f2f949.
+Process record: failed to record execution log.
+
+Program stopped.
+Download failed: Invalid argument.  Continuing without source file ./string/../sysdeps/x86_64/multiarch/strlen-avx2.S.
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:67
+warning: 67	../sysdeps/x86_64/multiarch/strlen-avx2.S: No such file or directory
